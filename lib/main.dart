@@ -1,6 +1,9 @@
 
+import 'package:developerapp/screens/about_page.dart';
 import 'package:developerapp/screens/homescreen.dart';
 import 'package:flutter/material.dart';
+
+import 'navigation/main_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const FeedPage(),
+      home: const HomePageState(),
     );
   }
 }
